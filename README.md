@@ -1,18 +1,18 @@
 # FaceRecognition-TransferLearning
 The whole project follows 3 steps of creating a Machine Learning Code i.e -
-a) Data Preparation
-b) Model Training 
-c) Model Prediction
+a) Data Preparation .
+b) Model Training .
+c) Model Prediction .
 
 # Data Preparation (Take my photos.ipynb)
-Your system must have a webcam , installed Python 3.x and opencv-python to run the code.
+Your system must have a webcam , installed Python 3.x and opencv-python to run the code .
 If youwant to train the model to predict 5 people , then take 60 photos of each preson and save them in a particular folder .
 Create a Training Dataset and Validation Dataset and put these two folders in a single folder .
-Dataset is ready . Now upload this Dataset on Google Drive
+Dataset is ready . Now upload this Dataset on Google Drive .
 
 # Model Training (Face_recog_Vgg16.ipynb)
-   # Combining the models and printing the summary
-Change the num_classes=5 as required  (if your dataset has 6 classes then change to num_classes=6)
+   # Combining the models and printing the summary 
+Change the num_classes=5 as required  (if your dataset has 6 classes then change to num_classes=6) .
    # Importing dataset and using Image generator for Augmentation
 Change the train_data_dir and val_data_dir and specify the path of your dataset on the google drive.
    # Training the Model
